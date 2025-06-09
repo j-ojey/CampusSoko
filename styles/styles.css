@@ -360,6 +360,12 @@ header {
   font-style: italic;
 }
 
+.member .bio {
+  font-size: 0.9rem;
+  color: #666;
+  margin-top: 5px;
+}
+
 .team-cta {
   display: flex;
   align-items: center;
@@ -406,7 +412,7 @@ header {
 }
 
 .section-subheader {
-  font-size: 1.1rem;
+  font-size: 1.5rem;
   color: #555;
   margin-bottom: 50px;
   text-align: left;
@@ -527,16 +533,6 @@ header {
   background-color: #218838;
 }
 
-.section-wrapper {
-  margin: 0 auto;
-  padding: 20px;
-  box-sizing: border-box;
-}
-.section-header {
-  font-size: 24px;
-  color: #000000;
-  text-align: left;
-}
 .section-subheader {
   font-size: 16px;
   color: #000000;
@@ -546,6 +542,14 @@ header {
 .contact-section {
   background-color: #d3d3d3;
   padding: 0;
+}
+.contact-section h2 {
+  font-size: 24px;
+  color: #000000;
+  margin-bottom: 5px;
+  padding-left: 0;
+  margin-top: 25px;
+  text-align: left;
 }
 .contact-form-container {
   background-color: #a9a9a9;
@@ -616,7 +620,8 @@ header {
   color: #888888;
 }
 .values-container {
-  background-color: #d3d3d3;
+  background-color: #fff;
+  overflow-x: auto;
   padding: 40px 0;
   text-align: center;
 }
@@ -683,4 +688,45 @@ header {
   flex-basis: 100%;
   text-align: center;
   margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+  .all-features {
+    flex-direction: column;
+    align-items: center;
+  }
+  .listings {
+    width: 100%;
+    max-width: 400px;
+  }
+  .hero-main {
+    padding: 20px;
+  }
+  .hero-main h1 {
+    font-size: 2rem;
+  }
+  .hero-buttons {
+    gap: 20px;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 500px) {
+  .navigation {
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+  }
+  .nav {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .team-members {
+    flex-direction: column;
+    align-items: center;
+  }
+  .member {
+    width: 100%;
+    max-width: 300px;
+  }
 }
