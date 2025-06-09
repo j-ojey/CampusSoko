@@ -200,3 +200,193 @@ header {
   max-width: 1200px;
   margin: 0 auto;
 }
+
+.listings {
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  padding: 20px;
+  width: 320px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  text-align: center;
+}
+
+.listings h4 {
+  font-size: 1.2rem;
+  margin: 12px 0 6px;
+  color: #333;
+}
+
+.listings h5 {
+  font-size: 1rem;
+  margin-bottom: 10px;
+  color: #666;
+}
+
+.listings p {
+  font-size: 0.95rem;
+  color: #444;
+  line-height: 1.5;
+}
+
+.img-listings {
+  margin: 16px 0;
+}
+
+.img-listings img {
+  width: 100%;
+  max-width: 280px;
+  height: auto;
+  border-radius: 6px;
+  object-fit: cover;
+}
+
+.testimonials {
+  background: #fff9f9;
+}
+
+.testimonials h2 {
+  font-size: 2.5rem;
+  color: #272727;
+  margin-top: 20px;
+  padding: 20px 30px;
+}
+
+.testimonials-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+
+.quotes {
+  background: #d9d9d9;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.q1 {
+  margin-top: 50px;
+}
+
+.quotes-mark {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.quotes-name,
+.quotes-designation,
+.quotes-mark {
+  text-align: center;
+}
+
+.quotes-name {
+  font-weight: 600;
+  font-size: 18px;
+  margin-top: 15px;
+}
+
+.quotes-designation {
+  font-size: 13px;
+  margin-top: 4px;
+  font-style: italic;
+}
+
+.q2 {
+  margin-bottom: 40px;
+}
+
+.team {
+  background-color: #f4f4ee;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.team-header {
+  font-size: 2.5rem;
+  color: #222;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: left;
+  margin-left: 60px;
+}
+
+.team-subheader {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 50px;
+  text-align: left;
+  margin-left: 60px;
+}
+
+.team-members {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+.member {
+  width: 260px;
+  background-color: white;
+  border-radius: 12px;
+  padding: 25px 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+}
+
+.member:hover {
+  transform: translateY(-8px);
+}
+
+.member img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+  border: 4px solid #28a745;
+}
+
+.member h3 {
+  font-size: 1.25rem;
+  color: #222;
+  margin-bottom: 5px;
+}
+
+.member p {
+  font-size: 1rem;
+  color: #555;
+  font-style: italic;
+}
+
+.team-cta {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-left: 75px;
+  margin-top: 20px;
+}
+
+.join-text {
+  font-size: 18px;
+  font-weight: 600;
+  font-style: italic;
+  color: #333;
+  margin: 0;
+}
+
+.apply-btn {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.apply-btn:hover {
+  background-color: #218838;
+}
